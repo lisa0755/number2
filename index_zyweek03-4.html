@@ -1,0 +1,71 @@
+<DOCTYPE html>
+<html>	
+     <head>
+	 <meta charset="utf-8">
+	 <title>开发文档</title>
+	 <style>
+
+     .container{
+      border:5px solid red;
+      position:relative;
+      margin:20 auto;
+     }
+     .elem{
+      border:5px solid blue;
+      float:left;
+      
+     }
+     section{
+      border:5px solid yellow;
+      margin-left:25%;
+     }
+     .section_b{
+      margin-top:-5px;
+     }
+
+     @media screen and (min-width:600px) {
+	     nav{
+	        width:25%;
+	     }
+	     section{
+	        margin-left:25%;
+	     }
+	 }
+
+	 @media screen and (max-width: 599px) {
+
+	     nav li {
+	       display: inline;
+	       float:none;
+	       width:auto;
+	     }
+	     section{
+	      	margin:auto 0px;
+	      	float:none;
+	      	width:auto;
+	     }
+	 }
+	 </style>
+
+	 </head>
+    
+     <body>
+         <div class="container">
+	  	     <nav class="elem">
+	  	     	 	 <ul>
+	  	     	 	 	 <li>首页</li>
+	  	     	 	 	 <li>导航</li>
+	  	     	 	 	 <li>联系</li>
+	  	     	 	 	 <li>价格</li>
+	  	     	 	 	 <li>地址</li>
+	  	     	 	 </ul>
+	  	     </nav>
+
+	         <section class="section_a">
+	         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ss.这个例子和之前那个外观一模一样。请注意我们在容器上做了“清除浮动”。原本在这个例子中是不需要的，但是当 nav 比非浮动的内容还要高时就需要了。这个例子和之前那个外观一模一样。请注意我们在容器上做了“清除浮动”。原本在这个例子中是不需要的，但是当 nav 比非浮动的内容还要高时就需要了。</section>
+	         <section class="section_b">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis diam velit. 这个例子和之前那个外观一模一样。请注意我们在容器上做了“清除浮动”。原本在这个例子中是不需要的，但是当 nav 比非浮动的内容还要高时就需要了。这个例子和之前那个外观一模一样。请注意我们在容器上做了“清除浮动”。原本在这个例子中是不需要的，但是当 nav 比非浮动的内容还要高时就需要了。这个例子和之前那个外观一模一样。请注意我们在容器上做了“清除浮动”。原本在这个例子中是不需要的，但是当 nav 比非浮动的内容还要高时就需要了。   	
+	  	     </section>
+         </div>
+     </body>
+
+ </html>
